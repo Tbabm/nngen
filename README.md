@@ -1,5 +1,5 @@
 # NNGen
-NNGen, proposed in [1] as a baseline for commit message generation from diffs.
+NNGen: a baseline for commit message generation from diffs.
 
 ## Structure
 - data: our cleaned dataset
@@ -55,8 +55,22 @@ docker run -it --rm -v $(pwd):/root/nngen --name run-nngen nngen:0.1 \
 
 Enjoy!
 
-## Reference
+## Citation
+If you use NNGen, please consider citing our paper:
 
+```bib
+@inproceedings{liu2018neural,
+  title={Neural-machine-translation-based commit message generation: how far are we?},
+  author={Liu, Zhongxin and Xia, Xin and Hassan, Ahmed E and Lo, David and Xing, Zhenchang and Wang, Xinyu},
+  booktitle={Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering},
+  pages={373--384},
+  year={2018}
+}
+```
+
+Thanks!
+
+## Reference
 [1] Liu Z, Xia X, Hassan A E, et al. Neural-machine-translation-based commit message generation: how far are we?[C]//Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering. ACM, 2018: 373-384.
 
 [2] Jiang S, Armaly A, McMillan C. Automatically generating commit messages from diffs using neural machine translation[C]//Proceedings of the 32nd IEEE/ACM International Conference on Automated Software Engineering. IEEE Press, 2017: 135-146.
