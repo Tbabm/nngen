@@ -70,6 +70,9 @@ If you use NNGen, please consider citing our paper:
 
 Thanks!
 
+## Online Appendix
+Our [online appendix](https://drive.google.com/drive/folders/1HSQ2HWfIzf886Zh4X9NPAFKV-indpjZ7) contains the regular expressions we used to filter out noisy data and the scoring criterion used in our human evaluation.
+
 ## Reference
 [1] Liu Z, Xia X, Hassan A E, et al. Neural-machine-translation-based commit message generation: how far are we?[C]//Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering. ACM, 2018: 373-384.
 
